@@ -1,6 +1,27 @@
+body {
+  margin: 0;
+  top: 0;
+  @import url("Roboto");
+  font-family: "Roboto", sans-serif;
+}
+
 .header {
-  background-color: #0000ff;
-  margin-bottom: 1rem;
+  background-color: #9999ff;
+  margin: 0 0 1rem 0;
+  padding: 0.5rem 1rem;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline;
+}
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

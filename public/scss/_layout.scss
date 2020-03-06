@@ -1,4 +1,25 @@
+body {
+    margin: 0;
+    top: 0;
+    @include google-font('https://fonts.googleapis.com/css?family=Roboto&display=swap', 'Roboto')
+}
+
 .header {
-    background-color: $base-color;
-    margin-bottom: $base-margin;
+    background-color: lighten($base-color, 30%);
+    margin: 0 0 $base-margin 0;
+    padding: $base-padding / 2 $base-padding;
+
+    ul {
+        @include reset-list;
+
+        li {
+            display: inline;
+
+            a {
+                text-decoration: none;
+                color: lighten($base-color, 90%);
+                margin-right: $base-margin;
+            }
+        }
+    }
 }
