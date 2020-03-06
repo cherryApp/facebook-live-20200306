@@ -10,4 +10,5 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use('/', require('./routes/index'));
 
+// Listen a port.
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
